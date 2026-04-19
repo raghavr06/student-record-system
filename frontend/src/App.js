@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API = 'http://localhost:5000/students';
+/* const API = 'http://localhost:5000/students'; */
+const API = 'http://YOUR_PUBLIC_IP:5000/students';
 
 const emptyForm = { name: '', rollNumber: '', course: '', age: '' };
 
